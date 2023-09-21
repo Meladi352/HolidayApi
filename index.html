@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Check your salary.</title>
+</head>
+<body>
+    <section>
+        <div class="wrapper">
+            <h1>Check your salary</h1>
+            <form >
+                <div class="input-box">
+                    <input type="number" id="salary" placeholder="Salary (h)" >
+                </div>
+                <div class="input-box">
+                     <input type="number" id="hour" placeholder="Working hours" >
+                </div>
+                <div class="input-box">
+                    <input type="text" id="year" placeholder="Year"><br>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="month" placeholder="Month"><br>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" id="day" placeholder="Day"><br>
+                </div>
+
+                <div class="input-box">
+                    <label for="country" class="country">Country</label>
+                    <input type="text" id="country" placeholder="Enter two letters...">
+                    
+                </div> 
+        </form>
+            <button class="btn" onclick="calculatePay()">Calculate the salary</button>
+                <div class="result-salary">
+                    <p id="result"></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

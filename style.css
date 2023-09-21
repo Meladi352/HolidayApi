@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito+Sans:wght@400;500;600&family=Nunito:wght@600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@600&family=Raleway:wght@400;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('BG.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 420px;
+    background-color:transparent;
+    border: 2PX solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #000000;
+    font-size: 16px;
+}
+
+.input-box .country{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: ease 0.4s;
+}
+
+.btn:hover{
+    background: #333;
+    color: #fff;
+}
+.result-salary p{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #d22c42;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #;
+    border-radius:3px ;
+    
+
+}
+.title h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.info {
+    text-align: center; /* Выравнивание текста по центру внутри .info */
+/* }
+
+.info input {
+    display: block;
+    width: 20%;
+    padding: 5px;
+    margin: 0 auto; /* Центрирование инпутов горизонтально */
+    /* margin-bottom: 10px;
+    border-radius: 10px;
+    } */ 
